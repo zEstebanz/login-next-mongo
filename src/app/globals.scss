@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+$black: #050505;
+$celeste: #0A715B;
+$celeste2: #026c7c;
+$amarillo: #ffab00;
+$roboto: 'Roboto', sans-serif;
+$orbitron: 'Orbitron', sans-serif;
+
+* {
+    font-family: $orbitron;
+}
+
+.span {
+    color: $celeste;
+}
+
+.section-port {
+    background-color: $black;
+    height: auto;
+    min-height: 100vh;
+
+    .container {
+        color: white;
+        padding: 5%;
+
+        .title {
+            padding-top: 80px;
+
+            span {
+                color: $celeste;
+            }
+        }
+
+        .subtitle {
+            
+        }
+    }
+
+    .container-carrusel{
+        padding: 0 10%;
+    }
+}
+
+.section-form{
+    background-color: $black;
+    min-height: 100vh;
+    height: auto;
+    .form-login{
+        padding-top: 180px;
+    }
+}
+
+.section-kit{
+    background-color: $black;
+}
+
+.sectionCover {
+    text-align: center;
+    margin-top: 100px;
+}
+
